@@ -13,6 +13,7 @@ public class AccountController {
     @Autowired
     private AccountService accountService;
 
+    @GetMapping
     public AccountResponse accountDetailHandler(AccountRequest accountRequest){
         return null;
     }
